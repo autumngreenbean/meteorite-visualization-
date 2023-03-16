@@ -1,0 +1,94 @@
+@font-face {
+  font-family: nimbus; src: url('nimbus-sans-l_bold-italic.ttf'); }
+
+@font-face {
+  font-family:nimbusitalic; src: url('nimbus-sans-l_italic.ttf'); }
+  
+@font-face {
+    font-family:office; src: url('OfficeCodePro-Light.otf'); }
+    
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  width:100vw;
+  color: rgba(203, 79, 57);
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  padding: 120px 0px;
+
+  display:grid;
+  grid-template-columns: repeat (12, 1fr);
+}
+
+header {
+  font-family: nimbus;
+  font-size: 3.5rem;
+  line-height:1;
+  margin-bottom: 0rem;
+  margin-top: 11em;
+  white-space:normal;
+}
+
+#typewriter {
+  font-family:nimbus;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 35rem;
+  margin-right:45rem;
+  margin-bottom:-.5rem;
+  text-align:left;
+}
+
+#subheader {
+  color:white;
+  font-family:nimbus;
+}
+.highlight {
+  color: rgb(0, 150, 255);;
+}
+
+.highlight1 {
+  color: gold;
+}
+
+.highlight2 {
+  color:rgb(255, 0, 183);
+}
+
+.highlight3 {
+  color:darksalmon;
+}
+
+section-blank {
+  padding: 0rem;
+  font-family: nimbusitalic;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color:white;
+  margin-bottom: var(--spacing);
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  color: black;
+  background-color: white;
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+}
+
+.left {
+  grid-column: 6 / 12;
+}
