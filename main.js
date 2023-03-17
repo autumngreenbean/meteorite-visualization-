@@ -1,7 +1,7 @@
 import './style.css'
 import * as THREE from 'https://unpkg.com/three/build/three.module.js';
-import { InteractionManager } from 'three.interactive';
-import * as TWEEN from '@tweenjs/tween.js';
+import { InteractionManager } from 'https://unpkg.com/three.interaction@0.2.2/build/three.interaction.js';
+
 
 let transition;
 let selectedColor;
